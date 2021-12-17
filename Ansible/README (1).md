@@ -103,6 +103,6 @@ SSH into the control node and follow the steps below:
 _TODO: Answer the following questions to fill in the blanks:_
 filebeat-playbook.yml /etc/ansible/filebeat.yml
 - _Which file do you update to make Ansible run the playbook on a specific machine? The hosts file How do I specify which machine to install the ELK server on versus which to install Filebeat on? By choosing the correct host group
-- _Which URL do you navigate to in order to check that the ELK server is running?
+- _Which URL do you navigate to in order to check that the ELK server is running? http://40.113.206.22:5601/
 
 _As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc._
