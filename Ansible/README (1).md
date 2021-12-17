@@ -64,16 +64,22 @@ Ansible was used to automate configuration of the ELK machine. No configuration 
 The main advantage of automationg configuration with ansible is that it allows IT departments and companies to automate the process of configuring a virtual network.  This gives the IT people and business more time to focus on other issues.
 
 The playbook implements the following tasks:
-- _TODO: In 3-5 bullets, explain the steps of the ELK installation play. E.g., install Docker; download image; etc._
-- ...
-- ...
+•	Install Docker.
+•	Create & Attach an Ansible container.
+•	Create Filebeat on Web Vm's.
+•	Create Filebeat configuration.YML file.
+•	Create Filebeat installation playbook.
+•	Create Metricbeat on Web Vm's.
+•	Create Metricbeat configuration.YML file.
+•	Create Metricbeat installation playbook.
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
 **Note**: The following image link needs to be updated. Replace `docker_ps_output.png` with the name of your screenshot image file.  
 
 
-![TODO: Update the path with the name of your screenshot of docker ps output](Images/docker_ps_output.png)
+![image](https://user-images.githubusercontent.com/89751905/146589475-454c5154-4a91-46c6-9937-220e9bcc3c6d.png)
+
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
